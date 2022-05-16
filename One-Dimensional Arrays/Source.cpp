@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	int arrA[5] = { 9, 7, 3, 2, 4 };
+	int arrA[5] = { 10, 7, 3, 2, 4 };
 	int arrB[10] = { 20, 18, 19, 15, 16, 14, 11, 13, 12, 17 };
 	int arrC[15];
 
