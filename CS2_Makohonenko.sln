@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "One-Dimensional Arrays", "One-Dimensional Arrays\One-Dimensional Arrays.vcxproj", "{CBD005D9-08D2-4D20-8690-CF3355277713}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two-dimensional Arrays", "Two-dimensional Arrays\Two-dimensional Arrays.vcxproj", "{842EDE67-6036-4B10-AB0F-16E2A895AAAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{CBD005D9-08D2-4D20-8690-CF3355277713}.Release|x64.Build.0 = Release|x64
 		{CBD005D9-08D2-4D20-8690-CF3355277713}.Release|x86.ActiveCfg = Release|Win32
 		{CBD005D9-08D2-4D20-8690-CF3355277713}.Release|x86.Build.0 = Release|Win32
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Debug|x64.ActiveCfg = Debug|x64
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Debug|x64.Build.0 = Debug|x64
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Debug|x86.ActiveCfg = Debug|Win32
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Debug|x86.Build.0 = Debug|Win32
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Release|x64.ActiveCfg = Release|x64
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Release|x64.Build.0 = Release|x64
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Release|x86.ActiveCfg = Release|Win32
+		{842EDE67-6036-4B10-AB0F-16E2A895AAAD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

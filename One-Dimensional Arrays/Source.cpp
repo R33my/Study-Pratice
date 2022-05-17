@@ -1,6 +1,7 @@
 #include<iostream>
 #include <algorithm>
 
+//Самостійне завдання 60В. Варіант 13.
 using namespace std;
 int main()
 {
