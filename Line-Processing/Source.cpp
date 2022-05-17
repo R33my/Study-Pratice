@@ -3,10 +3,13 @@
 #include <fstream>
 #include <Windows.h>
 
+//Самостійне завдання 273B. Варіант 13.
 using namespace std;
+
 string Encrypt(string);
 string Decrypt(string);
 void Read();
+
 int main()
 {
 	SetConsoleCP(1251);
