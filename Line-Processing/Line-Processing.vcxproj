@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b4de2f66-e4f2-49c8-8fb2-9974fbee2752}</ProjectGuid>
-    <RootNamespace>Lineprocessing</RootNamespace>
+    <ProjectGuid>{8e0b10a0-fafb-4327-a6aa-7c31d0b91a94}</ProjectGuid>
+    <RootNamespace>LineProcessing</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Line-processing</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
