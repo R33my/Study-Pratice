@@ -18,7 +18,7 @@ int main()
 	string str = "Я студент";
 	string crypt_str = Encrypt(str);
 	string decrypt_str = Decrypt(crypt_str);
-	
+
 	cout << "\nEnter to see decrypted text..." << endl;
 	
 	getchar();
@@ -33,7 +33,14 @@ string Encrypt(string s)
 	string crypt_str;
 	for  (int i = 0; i < s.size(); i++)
 	{
-		s[i]++;
+		if (s[i] == 'Я')
+		{
+			s[i] = 'А';
+		}
+		else
+		{
+			s[i]++;
+		}
 	}
 
 	crypt_str = s;
@@ -49,7 +56,14 @@ string Decrypt(string s)
 	string decrypt_str;
 	for (int i = 0; i < s.size(); i++)
 	{
-		s[i]--;
+		if (s[i] == 'А')
+		{
+			s[i] = 'Я';
+		}
+		else
+		{
+			s[i]--;
+		}
 	}
 	
 	decrypt_str = s;
