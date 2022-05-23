@@ -22,8 +22,6 @@ int InputStudents(STUDENT* students)
 			cin >> students[i].mark2;
 			cout << "Mark 3:" << endl;
 			cin >> students[i].mark3;
-			cout << "Mark 4:" << endl;
-			cin >> students[i].mark4;
 			i++;
 		}
 	} while (name != STOP);
@@ -37,12 +35,11 @@ void DataStudents(STUDENT* students, int count)
 	{
 		if (students[i].avr >= 4)
 		{
-			cout << "Number: " << students[i].num << endl
+			cout << endl << "Number: " << students[i].num << endl
 				<< "Name: " << students[i].name << endl
 				<< "Mark 1: " << students[i].mark1 << endl
 				<< "Mark 2: " << students[i].mark2 << endl
 				<< "Mark 3: " << students[i].mark3 << endl
-				<< "Mark 4: " << students[i].mark4 << endl
 				<< "Average mark: " << students[i].avr << endl;
 		}
 	}

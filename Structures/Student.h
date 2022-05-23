@@ -12,7 +12,6 @@ struct STUDENT
 	int mark1;
 	int mark2;
 	int mark3;
-	int mark4;
 	double avr;
 };
 
