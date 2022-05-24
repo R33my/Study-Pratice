@@ -10,12 +10,11 @@ int main()
 	int num;
 
 	cout << "Enter the number: ";
-	cin >> str;
+	cin >> num;
 
-	ss << str;
-	ss >> num;
+	ss << num;
+	ss >> str;
 
-	num += 10;
-	cout << "Converted string to number: " << num;
+	cout << "Converted string to number: " << str;
 
 }
