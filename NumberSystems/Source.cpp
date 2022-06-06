@@ -3,6 +3,7 @@
 #include <sstream>
 #include <math.h>
 
+//Практичне заняття 9. Завдання 11.
 using namespace std;
 int SystemTo10(char[], int);
 int TMP(int, int);
